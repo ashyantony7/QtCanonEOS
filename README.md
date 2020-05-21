@@ -8,4 +8,4 @@ This is a basic working app with good performance live view capture, manual focu
 
 3. Edit the LIBS, INCLUDEPATH, and DEPENDPATH in the CameraApp.pro file to your local path to the SDK library in Windows/Mac
 
-The 64 bit version of the EOS SDK does not work properly for me, but the 32 bit version worked fine.
+The 64 bit version of the EOS SDK does not work properly for me, but the 32 bit version worked fine. There are other limitations such as the need to wait for a certain duration for the camera to process requests. Current solution is to use threaded delays.
